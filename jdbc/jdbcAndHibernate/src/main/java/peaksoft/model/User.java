@@ -2,7 +2,9 @@ package peaksoft.model;
 
 import javax.persistence.*;
 
-@Table
+
+@Table (name = "User")
+@Entity
 public class User {
     @Id
     private Long id;
